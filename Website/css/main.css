@@ -1,0 +1,284 @@
+.container {
+    background-image: url("https://i.ebayimg.com/images/i/182716299497-0-1/s-l1000.jpg");
+    background-repeat: repeat;
+    height: 200%;
+    background-size: cover;
+    background-attachment: local;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+input {
+    position: relative;
+}
+.img {
+    width: 15em;
+    height: 20em;
+    margin: 30px;
+    border: 2px solid black;
+}
+li {
+    color: white;
+    list-style-type: none;
+    float: left;
+    padding-left: 60px;
+}
+
+a:hover {
+    color: hsl(0, 51%, 14%);
+}
+#more-info {
+    color: rgb(112, 4, 4);
+    margin-bottom: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(146, 70, 68);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#home-pic {
+  width: 500px;
+ height: 350px;
+ border: 2px solid rgb(146, 70, 68);
+    
+}
+#home-info {
+    background-color: rgb(146, 70, 68);
+}
+#login {
+    float: right;
+}
+.frm {
+    background-color:rgb(146, 70, 68);
+    text-align: center;
+    border: 2px solid black;
+    width: 500p;
+}
+#subscribe {
+    width: 150px;
+    height: 30px;
+}
+#news {
+    height: 120px;
+    width: 120px;
+}
+.btn {
+    background-color: rgb(172, 157, 108);
+    color: black;
+    border: 1px solid black;
+    margin: 5px;
+}
+.btn :hover{
+    background-color: red;
+}
+p {
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h3 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+h5 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#sub-frm {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#news {
+    border: 2px solid rgb(146, 70, 68);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover, .dropdown-content {
+    display: block;
+}
+#login {
+    float: right;
+    margin-right: 40px;
+}
+.main-photo {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 1px solid black;
+}
+
+.gallery {
+    border: 1px solid rgb(58, 57, 57);
+    max-width: 200px;
+    display: inline;
+}
+.text {
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+img:hover {
+    border: 1px solid gold;
+}
+.text {
+    display: inline;
+  font-size: 25px;
+}
+
+/*Photography page image headers */
+
+#street {
+    margin-left: 230px;
+}
+#landscape {
+    margin-left: 20px;
+}
+#portrait {
+   margin-left: 30px;
+}
+#breadcrumbs {
+margin-left: 80px;
+   padding: 3px;
+   color: white;
+   font-size: 15px;
+   text-align: center;
+}
+#breadcrumbs:hover {
+    color: gold;
+}
+#second-nav {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.shop-img {
+    width: 15em;
+    height: 10em;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 4px solid rgb(99, 67, 67);
+}
+.shop {
+    display: inline;
+}
+.show-text {
+    display: inline;
+   
+}
+.items {
+    max-width: 150px;
+    display: inline;
+}
+/*Shop page image headers */
+#film {
+    margin-left: 110px;
+}
+#bag {
+    margin-left: 140px;
+}
+#cam {
+    margin-left: 130px;
+}
+#shop-form {
+    background-color: rgb(146, 70, 68);
+    margin-left: 300px;
+    margin-right: 300px;
+    visibility: hidden;
+}
+#shp-frm {
+    text-align: center;
+    border: 2px solid black;
+}
+#share {
+    width: 60px;
+    height: 80px;
+}
+.first {
+color: white
+}
+iframe {
+ margin-left: 100px;
+}
+#form-div {
+    display: inline;
+}
+section {
+    float: right;
+    margin-right: 40px;
+    background-color: rgb(146, 70, 68);
+}
+#create {
+    color: black;
+    width: 120px;
+    height: 40px;
+}
+#tip-text {
+    text-align: center;
+}
+#guides {
+    display: inline;
+}
+.help-guides {
+width: 20em;
+height: 20em;
+margin-left: 60px;
+margin-top: 60px;
+border: 5px solid rgb(146, 70, 68);
+}
+
+#login-section {
+    background-color:rgb(146, 70, 68);
+    text-align: center;
+    border: 2px solid black;
+    width: 500p;
+}
+.space {
+    margin-bottom: 900px;
+}
+titile {
+    background-color: black;
+}
+#first-requirements {
+    visibility: hidden;
+}
+input:valid {
+    border: 2px solid green;
+}
+input:invalid {
+    border: 2px solid rgb(153, 49, 49);
+}
+#getQuote {
+    margin-top: 40px;
+  height: 30px;
+width: 200px;
+}
+

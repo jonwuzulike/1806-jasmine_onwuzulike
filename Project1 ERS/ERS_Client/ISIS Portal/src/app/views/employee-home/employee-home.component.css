@@ -1,0 +1,48 @@
+#emp_background {
+    /* background-image: url("../Archer/background.jpg"); */
+    background-image: url("http://coleran.com/wp-content/uploads/2014/03/CB2-CIA-Sat-Map-1024x768.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+    width: 100em;
+    height: 50em;
+ }
+ #link {
+     padding: 32px;
+     text-decoration: none;
+     display: inline;
+     transition: 0.3s;
+     color: #9bc5c6;
+     font-family: 'Press Start 2P', cursive;
+     font-size: larger;
+     text-align: center;
+
+ }
+ #link :hover {
+   border: 2px black solid;
+ }
+ #heading {
+    margin-top: 40px;
+ }
+ h1 {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 30px;   
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+ .status {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+ }
+ img {
+     width: 18em;
+     height: 18em;
+     margin-left: 500px;
+ }

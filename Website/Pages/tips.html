@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <title>35mm Photography</title>
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+<div class="container">
+<h1>Tips on Where to Start</h1>
+
+<!--Nav Bar-->
+<ul>
+        <li>
+            <a href="/home.html">Home</a>
+        </li>
+        <li class="dropdown">
+            <a href="/pages/photography.html" class="dropbtn">Photography</a>
+            <div class = "dropdown-content">
+                <a href="/pages/street.html">Street Photography</a>
+                <a href="/pages/landscape.html">Landscape Photography</a>
+                <a href="/pages/portrait.html">Portrait Photography</a>
+            </div>
+            <li>
+                <a href="/pages/tips.html">Tips</a>
+            </li>
+            <li><a href="/pages/shop.html">Shop</a></li>
+            <li>
+                <a href="/pages/admin.html">Admin Only</a>
+            </li>
+            <li id = "login" >
+                <a href="/pages/login.html">Sign Up/ Login</a>
+            </li>
+    </ul>
+    <br>
+    <br>
+<!--Vidoes that play-->
+<div id="video-div">
+    <iframe width="520" height="315" src="https://www.youtube.com/embed/rGhHz0Vk2xg" >
+    </iframe>
+
+    <section>
+        <h5>
+            Some Tips
+        </h5>
+
+        <div id="tip-text">
+            <p>Experiment with different film types.</p>
+            <p>Shoot around your neighborhood.</p>
+            <p>Use morning and evening light.</p>
+            <p>Learn the Sunny 16 rule</p>
+            <p>Don't get frustrated.</p>
+        </div>
+    </section>
+    </div>
+    <br>
+    <!--Helpful charts-->
+    <div id="guides">
+        <img class = "help-guides" src="https://cdn.davemorrowphotography.com/wp-content/uploads/2017/02/Exposure-Triangle-Cheat-Sheet-Photography.png">
+        <img class = "help-guides" src="http://eternafilms.com/wp-content/uploads/2017/06/picture-guide-to-aperture-shutter-speed-iso-full.jpg">
+      
+        <!--Submit a Tip-->
+        <section>
+          <center>
+                <h5>Add a Tip</h5>
+            Tip/Advice <input id="advice" type="text" required>
+            <br>
+            <br>
+            Submitted By<input id = "submitter" type="text" required>
+            <br>
+            <br>   
+            <input type="submit" value="Submit">
+          </center>
+        </section>
+        <section id="displayTip">
+            <p id="old">You submitted:</p>
+            <p id="tip"></p>
+        </section>
+    </div>
+    
+
+
+    
+    <!--New input section-->
+    <!-- <div class = "first">
+      <form>
+        Title: <input type="text">
+        <br>
+       Upload from your Device: <input id = "share" type="file">
+       <br>
+       or
+       <br>
+       Enter Url: <input type="url">
+       <br>
+      </form>
+    </div> -->
+    <br>
+    <br>
+    <br>
+</div>
+<script src="/js/tip.js"></script>
+    </body>
+
+    </html>

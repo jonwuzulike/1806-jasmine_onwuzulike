@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>35mm Photography</title>
+    <link rel="stylesheet" href="/css/main.css" />
+
+  
+</head>
+
+<body>
+<div class="container">
+<h1>Sign Up or Login</h1>
+
+<!--Nav Bar-->
+    <ul>
+        <li>
+            <a href="/home.html">Home</a>
+        </li>
+        <li class="dropdown">
+            <a href="/pages/photography.html" class="dropbtn">Photography</a>
+            <div class = "dropdown-content">
+                <a href="/pages/street.html">Street Photography</a>
+                <a href="/pages/landscape.html">Landscape Photography</a>
+                <a href="/pages/portrait.html">Portrait Photography</a>
+            </div>
+            <li>
+                <a href="/pages/tips.html">Tips</a>
+            </li>
+            <li><a href="/pages/shop.html">Shop</a></li>
+            <li>
+                <a href="/pages/admin.html">Admin Only</a>
+            </li>
+            <li id = "login" >
+                <a href="/pages/login.html">Sign Up/ Login</a>
+            </li>
+    </ul>
+    <br>
+    <br>
+ <!--Sign Up -->
+   <div id="login-section">
+   <h4>Sign Up</h4>
+Enter First Name:<input id = "p_first" type="text"required name="firstName" placeholder="Enter first name" minlength="2" title="Must be two characters minimum">
+<br>
+<br>
+Enter Last Name:<input id="p_last" type="text" required name="lastName" placeholder="Enter Last Name" minlength="2" title="Must be two characters minimum.">
+<br>
+<br>
+Enter Email Address:<input  id="p_email" type="email" required  name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter email address" title="Must be a valid email addrss containing a."> 
+<br>
+<br>
+<input id = "to_subscribe"type="checkbox">Subscribe to Our Mailing List
+<br>
+<br>
+<button id="createAcc">Create New Account</button>
+<br>
+<br>
+
+<br>
+
+<div id="registered-space">
+    
+</div>
+</div>
+</div>
+
+<script src="/js/login.js"></script>
+
+    </body>
+    </html>

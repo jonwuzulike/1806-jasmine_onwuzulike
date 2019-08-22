@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>35mm Photography</title>
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+<div class="container">
+    <h1>Photography</h1>
+<!--Nav Bar-->
+<ul>
+        <li>
+            <a href="/home.html">Home</a>
+        </li>
+        <li class="dropdown">
+            <a href="/pages/photography.html" class="dropbtn">Photography</a>
+            <div class = "dropdown-content">
+                <a href="/pages/street.html">Street Photography</a>
+                <a href="/pages/landscape.html">Landscape Photography</a>
+                <a href="/pages/portrait.html">Portrait Photography</a>
+            </div>
+            <li>
+                <a href="/pages/tips.html">Tips</a>
+            </li>
+            <li><a href="/pages/shop.html">Shop</a></li>
+            <li>
+                <a href="/pages/admin.html">Admin Only</a>
+            </li>
+            <li id = "login" >
+                <a href="/pages/login.html">Sign Up/ Login</a>
+            </li>
+    </ul>
+    <br>
+    <br>
+    <!--Categories-->
+    <h5>Choose a category</h5>
+  <center>
+    <div class="gallery">
+        <a class = "photo-cats" href="/pages/street.html">
+            <img class = "main-photo" src="https://blog.ink361.com/wp-content/uploads/2015/10/cover.jpeg" >
+         </a>
+        
+         </div>
+ 
+         <div class="gallery">
+         <a class = "photo-cats" href="/pages/landscape.html">
+             <img class = "main-photo" src="https://i.pinimg.com/originals/73/9b/e9/739be9c4e25ba191e5dd2d75e41d719b.jpg" >
+             </a>
+         </div>
+         <div class="gallery">
+         <a class = "photo-cats" href="/pages/portrait.htm">
+             <img class="main-photo" src="https://i.pinimg.com/736x/44/6b/94/446b94c534a382561c0aa052ae5fa802--hand-photography-photography-portraits.jpg">
+             </a>
+         </div>
+        </center>
+        <div class="show-text">
+            <span><h4 class="text" id = "street" >Street Photography</h4></span>
+            <span><h4 class="text" id="landscape">Landscape Photography</h4></span>
+          <span><h4 class = "text" id="portrait">Portrait Photography</h4></span>
+         </div>
+         <br>
+         <br>
+        <!--Randome Quote-->
+    <center>
+            <button id="getQuote" title="Click here to get a quote."> Get Quote</button>
+    </center>         
+    <h3 id="quotes"></h3>
+    <script src="/js/photography.js"></script>
+    </body>>
+    </html>
